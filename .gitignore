@@ -1,3 +1,8 @@
+# Eclipse-specific files
+/.settings/
+/.project
+.classpath
+
 # Compiled class file
 *.class
 
@@ -19,7 +24,17 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
-tipos-variaveis/.vscode/settings.json
+
+# Eclipse Working Sets
+*.launch
+
+# Maven target directory
+/target/
+
+# Gradle build directory
+/build/
+
+# Local configuration file
+/bin/
